@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1274e709-0b45-45d5-8f0e-9e6c364da14c" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../APP/Maven/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\APP\Maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2jgUUsdKtYqBixekug46uFtzvKZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "ce3fc77a95017ac7e89e3879299da241"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\JavaWork\StudyAliPay\spring-cloud-demo2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.biancheng.c" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicroServiceCloudProviderDeptHystrix8004Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.biancheng.c.Main" />
+      <module name="spring-cloud-demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudConsumerDept80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-consumer-dept-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConsumerDept80Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudConsumerDeptFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-consumer-dept-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConsumerDeptFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-eureka-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7001Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-eureka-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudeureka7002.MicroServiceCloudEureka7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-eureka-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7002Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-eureka-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7002Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-eureka-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudeureka7003.MicroServiceCloudEureka7003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-eureka-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7003Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-eureka-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7003Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDept8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-provider-dept-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDept8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-provider-dept-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDept8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-provider-dept-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudproviderdept8003.MicroServiceCloudProviderDept8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDept8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-provider-dept-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8003Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.biancheng.c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDept8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-provider-dept-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudProviderDeptHystrix8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-provider-dept-hystrix-8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDeptHystrix8004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MicroServiceCloudProviderDeptHystrix8004Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudConsumerDeptFeignApplication" />
+      <item itemvalue="Spring Boot.MicroServiceCloudConsumerDept80Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudProviderDept8002Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudProviderDept8001Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudProviderDept8003Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudEureka7002Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudEureka7003Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudEureka7001Application" />
+      <item itemvalue="应用程序.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MicroServiceCloudProviderDept8003Application" />
+        <item itemvalue="Spring Boot.MicroServiceCloudEureka7003Application" />
+        <item itemvalue="Spring Boot.MicroServiceCloudEureka7002Application" />
+        <item itemvalue="Spring Boot.MicroServiceCloudEureka7001Application" />
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1274e709-0b45-45d5-8f0e-9e6c364da14c" name="更改" comment="" />
+      <created>1721808234128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721808234128</updated>
+      <workItem from="1721808236257" duration="2122000" />
+      <workItem from="1721810400367" duration="33105000" />
+      <workItem from="1722825193097" duration="7793000" />
+      <workItem from="1722842300279" duration="2803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
