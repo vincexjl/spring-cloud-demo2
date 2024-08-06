@@ -5,6 +5,7 @@ package net.biancheng.c.service.impl;
  * @date 2024/8/5 11:02
  **/
 
+import cn.hutool.core.util.IdUtil;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import net.biancheng.c.service.DeptService;
@@ -39,5 +40,29 @@ public class DeptServiceImpl implements DeptService {
     // 当服务出现故障后，调用该方法给出友好提示
     public String dept_TimeoutHandler(Integer id) {
         return "C语言中文网提醒您，系统繁忙请稍后再试！" + "线程池：" + Thread.currentThread().getName() + "  deptInfo_Timeout,id:   " + id;
+    }
+
+    //Hystrix 熔断案例
+    @Override
+    @HystrixCommand(fallbackMethod = "deptCircuitBreaker_fallback", commandProperties = {
+            //以下参数在 HystrixCommandProperties 类中有默认配置
+            @HystrixProperty(name = "circuitBreaker.enabled", value = "true"), //是否开启熔断器
+            @HystrixProperty(name = "metrics.rollingStats.timeInMilliseconds", value = "1000"), //统计时间窗
+            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"), //统计时间窗内请求次数
+            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"), //休眠时间窗口期
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60"), //在统计时间窗口期以内，请求失败率达到 60% 时进入熔断状态
+    })
+    public String deptCircuitBreaker(Integer id) {
+        if (id < 0) {
+            //当传入的 id 为负数时，抛出异常，调用降级方法
+            throw new RuntimeException("c语言中文网提醒您，id 不能是负数！");
+        }
+        String serialNum = IdUtil.simpleUUID();
+        return Thread.currentThread().getName() + "\t" + "调用成功，流水号为：" + serialNum;
+    }
+
+    //deptCircuitBreaker 的降级方法
+    public String deptCircuitBreaker_fallback(Integer id) {
+        return "c语言中文网提醒您，id 不能是负数,请稍后重试!\t id:" + id;
     }
 }
