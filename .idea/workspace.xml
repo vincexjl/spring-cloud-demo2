@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1274e709-0b45-45d5-8f0e-9e6c364da14c" name="更改" comment="add Hystrix 服务熔断">
-      <change afterPath="$PROJECT_DIR$/docs/1.微服务是什么.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/10.0Spring Cloud Alibaba Nacos.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/11.Spring Cloud Alibaba Sentinel.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/12.Spring Cloud Alibaba Seata.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/2.Spring Cloud是什么.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/3.Spring Cloud Eureka.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/4.Spring Cloud OpenFeign.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/5.Spring Cloud Ribbon.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/6.Spring Cloud Hystrix.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/7.Spring Cloud Gateway.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/8.Spring Cloud Config.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/9.Spring Cloud Alibaba是什么.pdf" afterDir="false" />
+    <list default="true" id="1274e709-0b45-45d5-8f0e-9e6c364da14c" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-consumer-dept-feign/src/main/java/net/biancheng/c/controller/HystrixController_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-consumer-dept-feign/src/main/java/net/biancheng/c/controller/HystrixController_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-consumer-dept-feign/src/main/java/net/biancheng/c/service/DeptHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-consumer-dept-feign/src/main/java/net/biancheng/c/service/DeptHystrixService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/service/DeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-provider-dept-hystrix-8004/src/main/java/net/biancheng/c/service/impl/DeptServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +60,15 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "plugins.gitcommitmessagehelper",
-    "spring.configuration.checksum": "19bae6e44c84966e54c765d3132c6782"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "25968e211d3db0649e0005a737fe16ee"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -106,7 +89,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroServiceCloudConsumerDeptHystrixDashboard9002Application">
+  <component name="RunManager" selected="Spring Boot.MicroServiceCloudConfigClientBus3366Application">
+    <configuration name="MicroServiceCloudConfigCenter3344Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="micro-service-cloud-config-center-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConfigCenter3344Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudConfigClient3355Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConfigClient3355Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroServiceCloudConfigClientBus3366Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-config-client-bus-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConfigClientBus3366Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroServiceCloudConsumerDept80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="micro-service-cloud-consumer-dept-80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConsumerDept80Application" />
@@ -122,8 +127,9 @@
       </method>
     </configuration>
     <configuration name="MicroServiceCloudConsumerDeptHystrixDashboard9002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="micro-service-cloud-consumer-dept-hystrix-dashboard-9002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudconsumerdepthystrixdashboard9002.MicroServiceCloudConsumerDeptHystrixDashboard9002Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudConsumerDeptHystrixDashboard9002Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,8 +163,9 @@
       </method>
     </configuration>
     <configuration name="MicroServiceCloudEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="micro-service-cloud-eureka-7002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudeureka7002.MicroServiceCloudEureka7002Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7002Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,8 +213,9 @@
       </method>
     </configuration>
     <configuration name="MicroServiceCloudEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="micro-service-cloud-eureka-7003" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudeureka7003.MicroServiceCloudEureka7003Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudEureka7003Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,8 +277,9 @@
       </method>
     </configuration>
     <configuration name="MicroServiceCloudProviderDept8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="micro-service-cloud-provider-dept-8003" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.microservicecloudproviderdept8003.MicroServiceCloudProviderDept8003Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8003Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,6 +328,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.MicroServiceCloudConfigCenter3344Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudConfigClient3355Application" />
+      <item itemvalue="Spring Boot.MicroServiceCloudConfigClientBus3366Application" />
       <item itemvalue="Spring Boot.MicroServiceCloudProviderDeptHystrix8004Application" />
       <item itemvalue="Spring Boot.MicroServiceCloudConsumerDeptFeignApplication" />
       <item itemvalue="Spring Boot.MicroServiceCloudConsumerDept80Application" />
@@ -332,10 +344,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MicroServiceCloudConsumerDeptHystrixDashboard9002Application" />
-        <item itemvalue="Spring Boot.MicroServiceCloudProviderDept8003Application" />
-        <item itemvalue="Spring Boot.MicroServiceCloudEureka7003Application" />
-        <item itemvalue="Spring Boot.MicroServiceCloudEureka7002Application" />
         <item itemvalue="Spring Boot.MicroServiceCloudEureka7001Application" />
       </list>
     </recent_temporary>
@@ -353,7 +361,10 @@
       <workItem from="1722825193097" duration="7793000" />
       <workItem from="1722842300279" duration="3248000" />
       <workItem from="1722847301870" duration="11330000" />
-      <workItem from="1722931179589" duration="303000" />
+      <workItem from="1722931179589" duration="507000" />
+      <workItem from="1722931701496" duration="595000" />
+      <workItem from="1722932314833" duration="7289000" />
+      <workItem from="1723079145225" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cloud框架搭建学习&#10;包括Eureka、Ribbon、OpenFeign、Hystrix、Gateway等模块的使用">
       <created>1722847004258</created>
@@ -362,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722847004258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Hystrix 服务熔断 Hystrix 故障监控">
+      <created>1722931535068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722931535068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +402,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Spring Cloud框架搭建学习&#10;包括Eureka、Ribbon、OpenFeign、Hystrix、Gateway等模块的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud框架搭建学习&#10;包括Eureka、Ribbon、OpenFeign、Hystrix、Gateway等模块的使用" />
+    <MESSAGE value="add Hystrix 服务熔断 Hystrix 故障监控" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Hystrix 服务熔断 Hystrix 故障监控" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
