@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service-cloud-gateway-9527/src/main/java/net/biancheng/c/filter/MyGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service-cloud-gateway-9527/src/main/java/net/biancheng/c/filter/MyGlobalFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,6 +263,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroServiceCloudGateway9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micro-service-cloud-gateway-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudGateway9527Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroServiceCloudProviderDept8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="micro-service-cloud-provider-dept-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.biancheng.c.MicroServiceCloudProviderDept8001Application" />
@@ -328,6 +336,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.MicroServiceCloudGateway9527Application" />
       <item itemvalue="Spring Boot.MicroServiceCloudConfigCenter3344Application" />
       <item itemvalue="Spring Boot.MicroServiceCloudConfigClient3355Application" />
       <item itemvalue="Spring Boot.MicroServiceCloudConfigClientBus3366Application" />
@@ -364,7 +373,7 @@
       <workItem from="1722931179589" duration="507000" />
       <workItem from="1722931701496" duration="595000" />
       <workItem from="1722932314833" duration="7289000" />
-      <workItem from="1723079145225" duration="1321000" />
+      <workItem from="1723079145225" duration="5432000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cloud框架搭建学习&#10;包括Eureka、Ribbon、OpenFeign、Hystrix、Gateway等模块的使用">
       <created>1722847004258</created>
@@ -380,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722931535068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Spring Cloud、Config Config+Bus 实现配置的动态刷新">
+      <created>1723080899411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723080899412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +419,8 @@
     </ignored-roots>
     <MESSAGE value="Spring Cloud框架搭建学习&#10;包括Eureka、Ribbon、OpenFeign、Hystrix、Gateway等模块的使用" />
     <MESSAGE value="add Hystrix 服务熔断 Hystrix 故障监控" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Hystrix 服务熔断 Hystrix 故障监控" />
+    <MESSAGE value="add Spring Cloud、Config Config+Bus 实现配置的动态刷新" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Spring Cloud、Config Config+Bus 实现配置的动态刷新" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
